@@ -87,7 +87,7 @@ const data = [
 <Table 
         rowClass = {(index) => `index${index}`}
         className = 'table-test-class'
-        hideFilter = {false}
+        hideFilter = {true}
         pagination = {{pageSize:2}}
         columns = {columns}
          data = {data} 

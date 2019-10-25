@@ -109,11 +109,4 @@ const data = [
 
 | Name | Type | Default | Description |
 | - | :-: | :-: | -: |
-
-| columns | 	Object[] | {} | The columns config of table, see table below |
-
-
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
+| columns | 	Object[] | [] | The columns config of table, see table below |

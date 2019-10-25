@@ -107,7 +107,7 @@ const data = [
 
 ### API
 
-Name | Type | Default | Description
-- | :-: | :-: | -:
+| Name | Type | Default | Description
+| - | :-: | :-: | -:
 
 

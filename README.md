@@ -110,4 +110,4 @@ const data = [
 | Name | Type | Default | Description
 | - | :-: | :-: | -:
 
-
+| columns | 	Object[] | | The columns config of table, see table below

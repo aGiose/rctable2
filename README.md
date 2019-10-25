@@ -107,7 +107,7 @@ const data = [
 
 ### API
 
-| Name | Type | Default | Description
-| - | :-: | :-: | -:
+| Name | Type | Default | Description |
+| - | :-: | :-: | -: |
 
-| columns | 	Object[] | | The columns config of table, see table below
+| columns | 	Object[] | | The columns config of table, see table below |

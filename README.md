@@ -62,6 +62,47 @@ const columns = [
     sort:(a,b) => a.id - b.id,
   }
 ]
+
+const data = [
+  {
+    name:'Ben',
+    id:1,
+    major:'Physic',
+    class:'1414'
+  },
+  {
+    name:'Alice',
+    id:3,
+    major:'Physic',
+    class:'1414'
+  },
+  {
+    name:'Jone',
+    id:2,
+    major:'Physic',
+    class:'1414'
+  }
+]
+
+<Table 
+        rowClass = {(index) => `index${index}`}
+        className = 'table-test-class'
+        hideFilter = {false}
+        pagination = {{pageSize:2}}
+        columns = {columns}
+         data = {data} 
+         onChange = {(record,pagination,filter) => {
+           console.log(record,pagination,filter);
+           
+         }}
+         onRow = {(record) => {
+
+          return {
+            onClick:(e) => {
+              console.log('row');
+            }
+          }
+        }}/>
 ```
 
 

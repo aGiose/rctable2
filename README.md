@@ -105,4 +105,9 @@ const data = [
         }}/>
 ```
 
+### API
+
+Name | Type | Default | Description
+- | :-: | :-: | -:
+
 

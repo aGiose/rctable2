@@ -110,7 +110,7 @@ const data = [
 | Name | Type | Default | Description |
 | - | :-: | :-: | -: |
 
-| columns | 	Object[] | | The columns config of table, see table below |
+| columns | 	Object[] | {} | The columns config of table, see table below |
 
 
 | 左对齐 | 右对齐 | 居中对齐 |

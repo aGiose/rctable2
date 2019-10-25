@@ -7,6 +7,7 @@ npm install rctable2 --save
 
 ### Usage
 
+```
 import {Table} from 'rctable2'
 
 const columns = [
@@ -61,5 +62,6 @@ const columns = [
     sort:(a,b) => a.id - b.id,
   }
 ]
+```
 
 

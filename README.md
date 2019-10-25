@@ -7,7 +7,7 @@ npm install rctable2 --save
 
 ### Usage
 
-```
+```javascript
 import {Table} from 'rctable2'
 
 const columns = [
